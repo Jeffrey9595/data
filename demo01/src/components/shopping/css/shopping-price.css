@@ -1,0 +1,48 @@
+.shopping-price {
+  width: 230px;
+  padding: 20px 15px;
+}
+
+.price-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.price-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.price-list-item {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.price-list-item span {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.price-list-item span:hover {
+  transition: all 0.5s;
+  color: #ee7a23;
+  padding-left: 10px;
+  border-left: 2px solid #ee7a23;
+}
+.active {
+  border-left: 2px solid #ee7a23;
+  color: #ee7a23;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .shopping-price {
+    display: none;
+  }
+}
